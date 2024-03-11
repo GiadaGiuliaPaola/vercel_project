@@ -52,6 +52,8 @@ export async function fetchLatestInvoices() {
   }
 }
 
+
+// PARALLEL DATA FETCHING
 export async function fetchCardData() {
   try {
     // You can probably combine these into a single SQL query
